@@ -1,3 +1,3 @@
-<div className="navbar-center">
-  <a className="btn btn-ghost text-xl">Lance Pendragon</a>
+<div class="navbar-center">
+  <a class="btn btn-ghost text-xl" href="/">Lance Pendragon</a>
 </div>

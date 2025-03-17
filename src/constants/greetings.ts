@@ -73,7 +73,7 @@ export const MESSAGES: string[] = [
   "sudo make yourself at home",
   "warning: infinite loop of bad jokes ahead",
   "print('hello, visitor')",
-  "npm start... oh wait, it's already running",
+  "npm run start... oh wait, it's already running",
   "ctrl + s to save this moment",
   "exit(); // just kidding, please stay",
   "brb, refactoring this greeting",

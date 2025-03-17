@@ -1,10 +1,10 @@
-<div className="dropdown">
-  <div tabIndex={0} role="button" className="btn m-1">
+<div class="dropdown">
+  <div tabIndex={0} role="button" class="btn m-1">
     Theme
     <svg
       width="12px"
       height="12px"
-      className="inline-block h-2 w-2 fill-current opacity-60"
+      class="inline-block h-2 w-2 fill-current opacity-60"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 2048 2048"
     >
@@ -14,13 +14,13 @@
   </div>
   <ul
     tabIndex={0}
-    className="dropdown-content bg-base-300 rounded-box z-1 p-2 shadow-2xl"
+    class="dropdown-content bg-base-300 rounded-box z-1 p-2 shadow-2xl"
   >
     <li>
       <input
         type="radio"
         name="theme-dropdown"
-        className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
+        class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
         aria-label="Default"
         value="default"
       />
@@ -29,7 +29,7 @@
       <input
         type="radio"
         name="theme-dropdown"
-        className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
+        class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
         aria-label="Retro"
         value="retro"
       />
@@ -38,7 +38,7 @@
       <input
         type="radio"
         name="theme-dropdown"
-        className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
+        class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
         aria-label="Cyberpunk"
         value="cyberpunk"
       />
@@ -47,7 +47,7 @@
       <input
         type="radio"
         name="theme-dropdown"
-        className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
+        class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
         aria-label="Valentine"
         value="valentine"
       />
@@ -56,7 +56,7 @@
       <input
         type="radio"
         name="theme-dropdown"
-        className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
+        class="theme-controller btn btn-sm btn-block btn-ghost justify-start"
         aria-label="Aqua"
         value="aqua"
       />
