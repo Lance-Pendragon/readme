@@ -1,5 +1,5 @@
 ---
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 import '../assets/app.css';
 const { pageTitle } = Astro.props;
 ---
@@ -12,7 +12,7 @@ const { pageTitle } = Astro.props;
   </head>
   <body class="bg-base-100">
     <!-- Navbar -->
-    <Header />
+    <Header client:load/>
      
     <!-- Main Content -->
     <slot />
