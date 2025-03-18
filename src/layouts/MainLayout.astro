@@ -1,5 +1,5 @@
 ---
-import Header from '../components/Header/Header.svelte';
+import NavBar from '../components/NavBar/NavBar.svelte';
 import '../assets/app.css';
 const { pageTitle } = Astro.props;
 ---
@@ -12,7 +12,7 @@ const { pageTitle } = Astro.props;
   </head>
   <body class="bg-base-100">
     <!-- Navbar -->
-    <Header client:load/>
+    <NavBar client:load/>
      
     <!-- Main Content -->
     <slot />
