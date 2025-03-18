@@ -12,19 +12,10 @@
   } else {
     greetingsToDisplay = TITLES.EVENING;
   }
-
-  // Function to randomly pick a greeting
-  function getRandomGreeting(arr) {
-    return arr[Math.floor(Math.random() * arr.length)];
-  }
 </script>
 
-<div class="max-w-md">
-  <h1 class="mb-5 text-5xl font-bold">
-    {getRandomGreeting(greetingsToDisplay)}
-  </h1>
-  <p class="mb-5">
-    {getRandomGreeting(MESSAGES)}
-  </p>
-  <button class="btn btn-primary">Get Started</button>
+<div class="mockup-code w-full text-left">
+  <pre data-prefix="$"><code>npm i daisyui</code></pre>
+  <pre data-prefix=">" class="text-warning"><code>installing...</code></pre>
+  <pre data-prefix=">" class="text-success"><code>Done!</code></pre>
 </div>
