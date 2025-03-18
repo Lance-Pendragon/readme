@@ -4,7 +4,7 @@
   import NavBarEnd from "./NavBarEnd.svelte";
 </script>
 
-<div class="navbar bg-base-100 shadow-sm">
+<div class="navbar top-0 bg-base-100 shadow-sm sticky">
   <NavBarStart />
   <NavBarCenter />
   <NavBarEnd />
