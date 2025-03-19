@@ -12,14 +12,8 @@
   } else {
     greetingsToDisplay = TITLES.EVENING;
   }
-
-  let terminalLines = "";
-  
-  function generateTerminalLine() {
-    return '<pre data-prefix="$"><code>npm i daisyui</code></pre>';
-  }
 </script>
 
 <div class="mockup-code w-full text-left">
-  {@html generateTerminalLine()}
+  <pre data-prefix="$"><code>well hello there</code></pre>
 </div>
