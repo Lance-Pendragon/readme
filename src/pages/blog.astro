@@ -1,8 +1,9 @@
 ---
-import MainLayout from "../layouts/MainLayout.astro"
-import MainPageHero from "../components/MainPageHero/MainPageHero.svelte"
+import BlogLayout from "../layouts/BlogLayout.astro";
+import BlogLanding from "../components/BlogLanding/BlogLanding.svelte"
+const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
 ---
 
-<MainLayout pageTitle="README.md">
-    <MainPageHero client:load/>
-</MainLayout>
+<BlogLayout pageTitle="README.md">
+    <BlogLanding />
+</BlogLayout>
