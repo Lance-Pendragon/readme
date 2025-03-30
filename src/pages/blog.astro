@@ -1,9 +1,9 @@
 ---
-import BlogLayout from "../layouts/BlogLayout.astro";
+import MainLayout from "../layouts/MainLayout.astro";
 import BlogLanding from "../components/BlogLanding/BlogLanding.svelte"
 const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
 ---
 
-<BlogLayout pageTitle="README.md">
+<MainLayout>
     <BlogLanding />
-</BlogLayout>
+</MainLayout>
